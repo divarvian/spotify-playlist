@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>My Spotify Playlist</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+<style>
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.playlist {
+    list-style: none;
+    padding: 0;
+}
+
+.song {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+}
+
+.song img {
+    width: 80px;
+    height: 80px;
+    margin-right: 10px;
+    border-radius: 5px;
+}
+
+.song-info {
+    flex-grow: 1;
+}
+
+.song-title {
+    font-size: 18px;
+    margin: 0;
+}
+
+.song-artist {
+    font-size: 14px;
+    color: #666;
+    margin: 5px 0;
+}
+
+.play-icon {
+    color: #1db954;
+    font-size: 24px;
+    margin-right: 10px;
+}
+
+</style>
+</head>
+<body>
+
+<div class="container">
+    <div class="header">
+        <h1>My Spotify Playlist</h1>
+        <p>Enjoy the music!</p>
+    </div>
+
+    <ul class="playlist">
+        <li class="song">
+            <img src="https://via.placeholder.com/80" alt="Song Cover">
+            <div class="song-info">
+                <h2 class="song-title">Song Title</h2>
+                <p class="song-artist">Artist Name</p>
+            </div>
+            <i class="play-icon fas fa-play"></i>
+        </li>
+        <!-- Add more songs as needed -->
+    </ul>
+</div>
+
+</body>
+</html>
